@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+}
+
+/* ----------Navbar styling-----------*/
+.site-name {
+  font-family: "Style Script", cursive;
+  font-size: 24px;
+  letter-spacing: 1px;
+  margin-left: 10px;
+}
+
+.nav-bar {
+  display: flex;
+  background: #363737;
+  padding: 0px;
+  color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  justify-content: space-between;
+}
+
+.tabbed-links {
+  display: flex;
+}
+
+.links {
+  padding: 5px 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.links:hover {
+  background: white;
+  color: black;
+  transition: all 0.5s;
+}
+
+.active {
+  font-weight: 800;
+  text-shadow: 1px 1px 10px rgba(255, 255, 255, 0.8);
+}
+
+.links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:visited {
+  text-decoration: none;
+}
+
+.links a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.links a:focus {
+  text-decoration: none;
+  color: inherit;
+}
+
+.social-medias {
+  display: flex;
+  font-size: 20px;
+}
+
+.social-medias div {
+  padding: 4px 10px;
+}
+
+.social-medias div:hover {
+  color: white;
+}
+
+.social-medias div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/*----------- Navbar styling done ---------------*/
+
+/*------------ Home.js styling ----------------*/
+
+.home {
+  padding: 30px 5px;
+}
+
+.bg-circle {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  top: 48px;
+  left: 180px;
+  background: #c7c9c7;
+  position: absolute;
+  z-index: -1;
+}
+
+.bg-rectangle {
+  background: #c7c9c7;
+  height: 600px;
+  width: 200px;
+  position: absolute;
+  left: 1100px;
+  z-index: -1;
+}
+
+.home_card {
+  font-family: "Gowun Batang", serif;
+  margin: 50px auto;
+  background: white;
+  color: black;
+  box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.45);
+  width: 1000px;
+  height: 500px;
+}
+
+.info {
+  font-size: 1.5em;
+  padding-left: 25px;
+  display: inline-block;
+  height: 100%;
+}
+
+.info button {
+  background: #363737;
+  padding: 4px;
+  font-size: 20px;
+  font-family: "Gowun Batang", serif;
+  border: none;
+  border-radius: 10px;
+  color: white;
+}
+.info button:hover {
+  cursor: pointer;
+}
+
+.user {
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 800;
+}
+.imgRef {
+  float: right;
+}
+
+/*------------Home.js styling done----------------*/
+
+/*-------------About.js-----------------------------*/
+.detail_box {
+  margin: 2px auto;
+  height: 220px;
+  width: 700px;
+  border-radius: 10px;
+}
+
+.about_area {
+  padding: 5px;
+  font-family: "Gowun Batang", serif;
+  color: black;
+}
+
+fieldset {
+  background: white;
+  z-index: 0;
+}
+
+.bi-geo-alt-fill {
+  color: red;
+}
+
+.yt_link a {
+  text-decoration: none;
+}
+
+.bi-youtube {
+  color: red;
+}
+
+/*------------------------About.js styling done----------------*/
+
+/*.......................Skills.js styling -----------------------------*/
+
+.skills_page {
+  display: flex;
+}
+
+.skills_card {
+  margin: 10px auto;
+  font-family: "Gowun Batang", serif;
+  width: 800px;
+}
+
+.lang_icon {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.lang_info {
+  padding: 10px;
+}
+
+.lang {
+  display: flex;
+}
+
+.skills_area {
+  padding: 10px;
+  color: black;
+}
+
+.bi-trophy-fill {
+  animation: glow 0.7s infinite;
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0px 0px 15px rgba(255, 255, 255, 1);
+  }
+  to {
+    text-shadow: 0px 0px 15px rgba(255, 0, 0, 0.9);
+  }
+}
+
+.certificates {
+  background: #363737;
+  padding: 10px;
+  width: 170px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-family: "Gowun Batang", serif;
+  color: white;
+}
+
+.scroll_c {
+  margin-top: 5px;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.scroll_c::-webkit-scrollbar {
+  width: 4px;
+}
+.scroll_c:hover::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.scroll_c::-webkit-scrollbar-track {
+  background: #363737;
+}
+
+.scroll_c::-webkit-scrollbar-thumb {
+  background: #363737;
+  border-radius: 15px;
+}
+
+.certificates_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 5px;
+}
+
+.loader {
+  margin-top: 75%;
+  text-align: center;
+}
+
+.loader .rs-loader-content {
+  color: white;
+}
+
+.square {
+  width: 130px;
+  overflow: hidden;
+  padding: 5px;
+}
+
+.square:hover {
+  cursor: pointer;
+}
+
+.square > img {
+  margin-left: -40px;
+}
+
+.square > div {
+  text-align: center;
+  padding: 5px;
+}
+
+.c_square {
+  text-align: center;
+}
+
+/*------------------skills.js styling done------------------*/
+
+/*------------------styling for projects.js....................*/
+
+.projects_page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text_p {
+  padding: 6px;
+  font-size: 3.5em;
+  font-family: "Gowun Batang", serif;
+  color: black;
+  text-shadow: 0px 2px 5px rgba(95, 60, 60, 0.6);
+  font-weight: 700;
+  width: 40%;
+  text-align: center;
+}
+
+.image_p {
+  margin-top: 40px;
+}
+
+.main_content {
+  width: 60%;
+  height: 95vh;
+  font-family: "Gowun Batang", serif;
+  color: black;
+  overflow-y: auto;
+}
+
+.main_content::-webkit-scrollbar {
+  width: 5px;
+}
+.main_content::-webkit-scrollbar-track {
+  background: white;
+}
+
+.main_content::-webkit-scrollbar-thumb {
+  background: #363737;
+  box-shadow: 0px 0px 10px rgba(19, 11, 11, 0.7);
+  border-radius: 15px;
+}
+
+.tile {
+  height: 120px;
+  padding: 4px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  border: 2px solid #363737;
+  margin-top: 2%;
+}
+
+.tools {
+  padding-top: 2px;
+  justify-content: center;
+  display: flex;
+}
+
+.tools div {
+  padding: 4px;
+  margin-left: 10px;
+  background: white;
+}
+
+.tile > h4 {
+  display: inline;
+}
+
+.project_links {
+  float: right;
+}
+
+.project_links > div {
+  background: #363737;
+  border-radius: 15px;
+  padding: 4px;
+}
+
+.project_links > div:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.project_links > div > a {
+  text-decoration: none;
+  color: white;
+}
+
+/*----------------------------------For mobile devices -------------------------------------------*/
+
+@media (min-width: 480px) {
+  .visible_xs {
+    display: none;
+  }
+
+  .open_side {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .site-name {
+    display: none;
+  }
+
+  .social-medias {
+    display: none;
+  }
+
+  .nav-bar {
+    font-size: 15px;
+    justify-content: center;
+  }
+
+  .bg-circle {
+    display: none;
+  }
+
+  .home_card {
+    font-size: 10px;
+    height: 550px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 350px;
+  }
+
+  .visible_xs {
+    text-align: center;
+  }
+
+  .info {
+    margin-top: -55px;
+    height: auto;
+  }
+
+  .info button {
+    font-size: 14px;
+  }
+  .bg-rectangle {
+    display: none;
+  }
+
+  .imgRef > img {
+    display: none;
+  }
+
+  .text_p {
+    display: none;
+  }
+
+  .main_content {
+    width: auto;
+  }
+
+  .tile {
+    height: auto;
+  }
+
+  .tile > h4 {
+    font-size: 16px;
+  }
+
+  .sLinks {
+    display: flex;
+    margin-top: 10px;
+    font-size: 16 px;
+    padding: 5px;
+    width: 300px;
+    justify-content: space-between;
+    color: black;
+  }
+
+  .sLinks a {
+    color: black;
+  }
+
+  .certificates {
+    position: absolute;
+    display: none;
+  }
+
+  .open_side {
+    position: absolute;
+    background: #363737;
+    color: white;
+    font-size: 25px;
+  }
+
+  .open_side > i {
+    color: white;
+  }
+
+  .close_btn {
+    display: block;
+    font-size: 16px;
+    text-align: right;
+  }
+
+  .skills_area {
+    margin-top: 10px;
+  }
+
+  .lang {
+    margin-top: 10px;
+    width: auto;
+  }
+
+  .detail_box {
+    width: auto;
+  }
+}
